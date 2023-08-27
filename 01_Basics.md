@@ -5,7 +5,7 @@ Q) what is Node js
 
 > Code and syntax is very similar to JavaScript.
 
-> __But not exactly the same.__
+> But not exactly the same.
 
 > Node js free,open-source.
 
@@ -43,3 +43,25 @@ Q) JavaScript & Node are the Same?
 
 > JavaScript is run on the browser
 
+<hr>
+
+## Install and Setup
+
+> Download node.js from > https://nodejs.org/en 
+
+> run the installer with defoult setup to install node in laptop
+
+> npm will be installed along with this setup
+
+**check in terminal for conformation**
+  - node -v  // node version
+  - npm -v     // npm version
+
+
+## where to write code 
+(not limited to ; can choose and editor ) 
+
+- VS Code
+- Sublime
+- Atom
+- WebStorm
