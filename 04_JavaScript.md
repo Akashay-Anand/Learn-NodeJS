@@ -104,8 +104,43 @@ The new operator creates an instance of a constructor.
 
 
 ## Variables
+- A variable is a container to store some values.
+
+*JavaScript Variables can be declared in 4 ways:*
+* Automatically
+* Using var
+* Using let
+* Using const
+
+```javascript
+//  x is undeclared variables.
+// automatically declared when first used
+x = 5;
+
+//  var
+var x = 5;
+
+// Let 
+let x = 5;
+
+// const
+const x = 5;
+// These are constant values and cannot be changed.
+
+///////////////
+
+// The var keyword was used in all JavaScript code from 1995 to 2015.
+
+// The let and const keywords were added to JavaScript in 2015.
+
+// The var keyword should only be used in code written for older browsers.
+
+```
+
+- The design of var is confusing and error-prone. So let was created in modern versions of JavaScript
 
 
+## 
 
 # Resources
 - https://nodejs.dev/en/learn/how-much-javascript-do-you-need-to-know-to-use-nodejs/
