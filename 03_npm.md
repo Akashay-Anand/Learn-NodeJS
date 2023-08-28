@@ -3,4 +3,5 @@
 
 > Use to manage packages in node project
 
-> 
+> Command line utility to install packages, do version management and dependency management of Node.js packages.
+

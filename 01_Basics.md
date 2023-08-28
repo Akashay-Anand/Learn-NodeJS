@@ -1,4 +1,7 @@
 Q) what is Node js
+
+__Node.js = Runtime Environment + JavaScript Library__
+
 > Node is not a Language. This is a Runtime/Server Environment for JavaScript.It's use Chrome's V8 engine to execute code.
 
 > Nodejs can connect with database.
