@@ -48,6 +48,9 @@ Q) JavaScript & Node are the Same?
 
 <hr>
 
+## Browser vs Node
+![Alt text](image-1.png)
+
 ## Install and Setup
 
 > Download node.js from > https://nodejs.org/en 

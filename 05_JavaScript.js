@@ -25,7 +25,7 @@ console.log(arr);
 // })
 
 let result  = arr.filter((item)=>{
-        return item%2 === 0; // ? not working // Q) what would be the typr of item and result
+        return item%2 === 0; // Q) what would be the typr of item and result
         // return item === 3;
 })
 
