@@ -140,7 +140,11 @@ const x = 5;
 - The design of var is confusing and error-prone. So let was created in modern versions of JavaScript
 
 
-## 
+## Function
+
+
+
+
 
 # Resources
 - https://nodejs.dev/en/learn/how-much-javascript-do-you-need-to-know-to-use-nodejs/
