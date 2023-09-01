@@ -1,7 +1,7 @@
 # Basic Before Getting Start
 
 ## What are Client and Server Sides & Where do we use node(Client or Server Side)?
-![Alt text](image.png)
+![Alt text](/assets/req-res.png)
 
 
 ## How Nodejs use javaScript?

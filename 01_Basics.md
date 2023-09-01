@@ -49,7 +49,7 @@ Q) JavaScript & Node are the Same?
 <hr>
 
 ## Browser vs Node
-![Alt text](image-1.png)
+![Alt text](/assets/NvB.png)
 
 ## Install and Setup
 
@@ -71,3 +71,16 @@ Q) JavaScript & Node are the Same?
 - Sublime
 - Atom
 - WebStorm
+
+<br>
+<hr/>
+<hr/>
+<br>
+
+## package.json and package-lock.json
+
+- Package.json: stores metadata about our project and modules; (VVI) 
+- Package.lock.json: stores all details about modules and there dependencies.
+
+- using package.json, we can regenerate all modules and dependencies.   
+- 

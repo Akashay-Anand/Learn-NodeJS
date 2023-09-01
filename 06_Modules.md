@@ -22,3 +22,18 @@ fs.writeFileSync("hello.txt","import me first");
 ```
 
 Q) if we importe module after using it than also it workes. Why?
+
+
+////////////////////////////////////////////////////////////////
+
+# Important Modules
+
+### Nodemon Module
+> helps to create live server ; so that we don't have to restart server everytime.
+>
+> to install use: npm i nodemon 
+
+> earlier we were using node < file-name >, to execute that   
+
+> Now use: nodemon < file-name > ; 
+ 

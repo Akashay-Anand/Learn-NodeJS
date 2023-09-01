@@ -1,6 +1,10 @@
 // Creating a basic server using nodejs core modules
 const http = require('http'); // handle req, res
 
+// Request(req) comes to serve; it can contain some sort of data also ; like form data...
+// Response(res) outputs sended from the server to client.
+
+
 ///// Server 01; returns normal text and html
 http.createServer(function (req, res){
     res.setHeader("Content-Type", "text/html");
@@ -10,10 +14,6 @@ http.createServer(function (req, res){
     res.end(" end of response"); // we can send text at the end of response (optional)
 })
 // .listen(8080);
-
-// Request(req) comes to serve; it can contain some sort of data also ; like form data...
-// Response(res) outputs sended from the server to client.
-
 
 
 ///// server 02; use independent function
@@ -26,7 +26,7 @@ http.createServer(serve)
 
 ///// server 03; use listen separately
 const server = http.createServer((req, res) => {
-    res.write(" listen server ");
+    res.write(" listen server - Anand ");
     res.end();
 });
 // server.listen(8080);
@@ -36,3 +36,4 @@ const server = http.createServer((req, res) => {
 server.listen(8080,() => {
     console.log("listen server on 8080")
 });
+

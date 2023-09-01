@@ -6,4 +6,9 @@
 - https://medium.com/swlh/console-log-isnt-in-the-javascript-language-2b0f24d57397
 
 
-Q) 
+**Q) Node JS is single threaded or multi threaded?**
+
+- Node js is single threaded. but it's also perform asynchronous execution;
+
+
+- 
