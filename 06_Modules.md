@@ -37,3 +37,8 @@ Q) if we importe module after using it than also it workes. Why?
 
 > Now use: nodemon < file-name > ; 
  
+ ### fs
+ > module enables interacting with the file system
+
+- fs.writeFileSync() : write in any file/create file
+- fs.unlinkSync() : delete file

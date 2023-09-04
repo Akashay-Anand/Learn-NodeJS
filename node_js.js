@@ -17,3 +17,10 @@ fsw('temp1.txt', 'this is temporary file created using fs module');
 // global variables
 console.log(" = " , __dirname);
 console.log(" = " + __filename); 
+
+
+///////////////////////////////////////////////////////
+
+// Process =  
+
+console.log(process)
