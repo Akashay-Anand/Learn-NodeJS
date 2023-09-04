@@ -29,7 +29,8 @@ console.log(process.memoryUsage());
 // we can take input from user and use that to perform any task
 
 // crea file by taking file name from console
-const fs = require('fs');
+// const fs = require('fs');
+const fs = require("node:fs");
 
 // use command : node 9_process temp09 "hello process"
 // fs.writeFileSync(process.argv[2],process.argv[3]);
@@ -48,3 +49,5 @@ else if(index[2] == 'delete'){
 else{
     console.log("Invalid input");
 }
+
+console.log( fs.readFileSync("temp09",'utf8') )

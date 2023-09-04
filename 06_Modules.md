@@ -1,10 +1,16 @@
+// Question
+
+Q) Built-in module ?
+
+<br/>
+
 # Modules
 
 1. Core Modules (global, non-global)
 2. External Module
 
 **1. Core Module**
-- modules which come pre built with Node.
+- modules which come pre built with Node./ or / The Node.js core modules are a set of modules that are included with the Node.js runtime.
 - ex: console.log(), fs, Buffer. HTTP
 - core module helps to implement basic features and functionality.
 
@@ -21,7 +27,26 @@ console.log("it is global");
 fs.writeFileSync("hello.txt","import me first");
 ```
 
-Q) if we importe module after using it than also it workes. Why?
+
+```javascript
+// How to import modules
+// Syntax	                Description
+
+// require("fs");	        This syntax loads the fs module from the current file system. This is the preferred syntax for Node.js 17 or later.
+
+// require("node:fs");	    This syntax loads the node:fs module from the Node.js core modules. This syntax should only be used if you are using an older version of Node.js.
+
+
+// when to use 'node:' prefix
+
+// > only be used if you are using an older version(below 17) of Node.js that does not have features like fs.promises interface, etc. 
+// >  use the node: prefix when importing a module from the Node.js core modules.
+
+// > Ex: If you use the node:fs prefix when importing the fs module in an older version of Node.js, you will be able to use the fs.promises interface. The fs.promises interface is a newer interface that uses promises instead of callbacks.
+// > 
+
+```
+
 
 
 ////////////////////////////////////////////////////////////////

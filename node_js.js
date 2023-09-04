@@ -23,4 +23,4 @@ console.log(" = " + __filename);
 
 // Process =  
 
-console.log(process)
+// console.log(process)
