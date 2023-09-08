@@ -47,6 +47,13 @@ fs.writeFileSync("hello.txt","import me first");
 
 ```
 
+## Module function (sync, async);
+ex, fs.readFileSync(); fs.readFile();
+
+> In Node.js, functions with "sync" as a postfix in their names are synchronous functions, and they do not use callbacks for handling the result of their operations. These functions are designed to block the execution of your program until the operation is complete
+>
+> rest is asynchronous function which uses either callbacks or promises ;
+
 
 
 ////////////////////////////////////////////////////////////////
