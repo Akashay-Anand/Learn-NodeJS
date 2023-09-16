@@ -4,7 +4,7 @@ Daily learning on Node JS
 ### Topics to be covered
 
 - What is Nodejs
-- How it worst
+- How it work
 - Install and run
 - Make Basic API
 - use with expressjs

@@ -173,6 +173,26 @@ let foo = () => {
 
 ```
 
+## Sync and Async Functions 
+
+> In Synchronous operations tasks are performed one at a time
+>
+> In Asynchronous, Second Task do not wait to finish First Task
+
+```js
+
+// essue with async. // it can be handled using callback, promisses.
+let a = 10;
+let b=0;
+
+setTimeout(()=>{
+  b = 20;
+},2000)
+
+console.log(a+b) // output: 10
+
+```
+
 
 ## This operator
 

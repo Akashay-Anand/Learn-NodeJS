@@ -83,4 +83,10 @@ Q) JavaScript & Node are the Same?
 - Package.lock.json: stores all details about modules and there dependencies.
 
 - using package.json, we can regenerate all modules and dependencies.   
-- 
+
+
+////////////////////////////////
+
+## What is buffer in node
+> it is like temporary memory to perform I/O operations in nodejs
+> 
