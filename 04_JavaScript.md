@@ -4,9 +4,9 @@
 - Data Types
 - Classes
 - Variables
-- Functions
-- this operator
+- Functions 
 - Arrow Functions
+- this operator -
 - Loops
 - Scopes
 - Arrays
@@ -106,15 +106,14 @@ The new operator creates an instance of a constructor.
 ## Variables
 - A variable is a container to store some values.
 
-*JavaScript Variables can be declared in 4 ways:*
-* Automatically
+*JavaScript Variables can be declared in 3 ways:*
 * Using var
 * Using let
 * Using const
 
 ```javascript
 //  x is undeclared variables.
-// automatically declared when first used
+// automatically declared when first used (hosted)
 x = 5;
 
 //  var
@@ -138,9 +137,52 @@ const x = 5;
 ```
 
 - The design of var is confusing and error-prone. So let was created in modern versions of JavaScript
+- it's default value is undefined ( if we don’t assign any value at the time of declaration)
+- If you try to access the variable that doesn’t exist, you will get an error message. (Uncaught ReferenceError: variable not defined)
+- VAR HOISTING: Var variables can be accessed before their declaration. Javascript moves all the var variables to the top of the function or global context.
+
 
 
 ## Function
+- A function is a block of code that can be executed repeatedly, as needed. Functions are really useful because you write the code once and then you can run it multiple times.
+
+> Type of Function
+```JavaScript
+// 01 function declaration
+function fun(name){
+    console.log("Hello". ${})
+}
+fun('Anand');
+
+
+// 02 function expression
+let namedVariable = function myFunction(){
+	//some code here...
+}
+
+// 03 arrow function
+let foo = () => {
+  console.log("Hello");
+}
+
+// 04 Immediately Invoked Function Expressions (IIFEs)
+(function (){
+	let pi = "3.141"
+    console.log(pi)
+})();
+
+```
+
+
+## This operator
+
+- A function's this keyword behaves a little differently in JavaScript compared to other languages
+- It also has some differences between **strict mode** and non-strict mode.
+- the value of this is determined by how a function is called (runtime binding).
+
+
+
+
 
 
 

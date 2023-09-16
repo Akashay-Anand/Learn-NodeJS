@@ -50,10 +50,16 @@ fs.writeFileSync("hello.txt","import me first");
 ## Module function (sync, async);
 ex, fs.readFileSync(); fs.readFile();
 
-> In Node.js, functions with "sync" as a postfix in their names are synchronous functions, and they do not use callbacks for handling the result of their operations. These functions are designed to block the execution of your program until the operation is complete
+> every modules have two type of methods namely 'sync' and 'async'.
 >
-> rest is asynchronous function which uses either callbacks or promises ;
 
+> In Node.js, functions with "sync" as a postfix in their names are synchronous functions, and they do not use callbacks for handling the result of their operations. These functions are designed to **block the execution** of your program until the operation is complete
+>
+> rest is asynchronous function. which uses either callbacks or promises
+> Asynchronous methods do not block the main thread. This means that the main thread can continue to execute other code while the asynchronous method is running.
+
+### Best practice to write methods
+// will be writing soon.
 
 
 ////////////////////////////////////////////////////////////////

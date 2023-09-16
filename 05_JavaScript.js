@@ -1,4 +1,4 @@
-// to run this file use terinal with node and filename command. 
+// to run this file use terminal with node and filename command. 
 // node 05_Javascript
 
 var x = 20;
