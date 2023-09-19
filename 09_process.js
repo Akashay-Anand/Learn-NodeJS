@@ -12,6 +12,9 @@
 
 // console.log(process); // will print everything related to file/project;
 
+// require('dotenv').config();
+// console.log(process.env.port);
+
 console.log(process.argv); // "argument vector" ; array of arguments
 
 console.log(process.argv[2]); // command "node 09_process hello" ; // output: 'hello' 
