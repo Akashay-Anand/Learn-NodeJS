@@ -54,3 +54,11 @@ mongoose.connect(DBurl)
 
 > this DBurl is for local database.
   'mongodb://127.0.0.1:27017/test'
+
+
+# Questions: 
+
+Q) what would be the collection name;
+> discussed above
+Q) what would be the dataset name;
+> ?
