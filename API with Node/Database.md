@@ -40,7 +40,7 @@ mongodb+srv://<user>:<password>@cluster0.seyxttn.mongodb.net/?retryWrites=true&w
 'mongodb.net/?retryWrites' : (optional) add collection name in between '/<here>?' in that link
 
 // DBurl after making changes
-mongodb+srv://admin:admin12#12@cluster0.seyxttn.mongodb.net/node-test01?retryWrites=true&w=majority
+mongodb+srv://adminexample:passExample@cluster0.seyxttn.mongodb.net/node-test01?retryWrites=true&w=majority
 
 
 ```
